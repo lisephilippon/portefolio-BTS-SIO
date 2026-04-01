@@ -107,34 +107,6 @@ h1 {
     text-align: center;
 }
 
-.photos__tableau {
-    margin: 1rem;
-    padding: 1rem;
-    border: dotted #c44900 2px ;
-    display: grid;
-    place-items: center;
-}
-
-.photos__caption {
-    font-size: 1.5rem;
-    padding-top : 3rem;
-    color: #c44900;
-    text-align: center;
-}
-
-.photos__imgh {
-    height: 20rem;
-    width :30rem;
-    place-items: center;
-}
-
-.photos__imgv {
-    height: 30rem;
-    width : 19rem;
-    margin-left: 5rem;
-
-}
-
 .contenu-prog__programmes {
     display: block;
 }
@@ -210,81 +182,6 @@ h1 {
     padding: 1rem;
 }
 
-
-.contenu-autres__section {
-    display: block;
-}
-
-.crochet__caption {
-    font-size: 1.5rem;
-    padding : 2rem;
-    color: #c44900;
-}
-.crochet__tableau {
-    margin : 1rem;
-    border: dotted #c44900 2px ;
-}
-
-.crochet__img {
-    margin-top: 4rem;
-    width: 80px;
-    height: 80px;
-}
-
-.blender__caption {
-    font-size: 1.5rem;
-    color: #c44900;
-    text-align: center;
-    margin-top: 4rem;
-}
-
-.blender__tableau {
-    margin : 2rem;
-    border: dotted #c44900 2px ;
-    display: grid;
-    place-items: center;
-}
-
-.blender__img {
-    border-radius: 20px;
-    margin : 1rem;
-}
-
-.argile__caption {
-    font-size: 1.5rem;
-    color: #c44900;
-    text-align: center;
-}
-
-.argile__tableau {
-    margin : 2rem;
-    border: dotted #c44900 2px ;
-    display: grid;
-    place-items: center;
-}
-
-.argile__tableau, .haut, .bas {
-    display: grid;
-    place-items: center;
-}
-
-.bouclier__texte {
-    font-size: 1.5rem;
-    padding : 2rem;
-    color: #c44900;
-    text-align: center;
-}
-
-
-.section__bouclier {
-    margin : 2rem;
-}
-
-.bouclier__img {
-    padding: 1rem;
-    height: 40rem;
-    width : 30rem;
-}
 
 footer {
     color: #183a37;
