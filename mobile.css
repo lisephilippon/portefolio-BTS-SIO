@@ -1,0 +1,293 @@
+/* noir: #04151f, vert: #183a37, creme: #efd6ac, orange: #c44900 */
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+*, *:before, *:after {
+        box-sizing: border-box;
+}
+
+html {
+    font-size : 62.5%;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+    background-color : #efd6ac ;
+
+}
+
+header {
+    font-size: 4rem;
+    font-family: "Rock 3D";
+    font-weight: 500 ;
+    text-align: center;
+    color: white;
+    padding : 1em ;
+    display: block ;
+    background-color: #183a37 ;
+}
+
+nav {
+    background-color: #c44900 ;
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    font-size: 2rem;
+    font-family: "Fredericka the Great", serif;
+    color :  white ;
+    display : block ;
+    padding : 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color : white ;
+    background-color: #863201;
+    transition: background-color 0.5s ease ;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Holtwood One SC", serif;
+    color: #183a37;
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro__texte {
+    font-size: 1.5rem;
+    color: #362121;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.contenu-principal__section {
+    display: grid;
+    padding: 1rem;
+    place-items: center;
+}
+
+.section__img {
+    padding : 1rem;
+    height: 30rem;
+    width: 22rem;
+}
+
+.section__article{
+    border: dotted #c44900 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px ;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.section__article:hover{
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s ease ;
+}
+
+.article__titre {
+    font-size: 1.5rem;
+    font-family: "Holtwood One SC", serif;
+    color: #183a37;
+    padding: 1rem;
+    text-align: center;
+}
+
+.article__texte {
+    font-size: 1.25rem;
+    padding: 2rem;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.photos__tableau {
+    margin: 1rem;
+    padding: 1rem;
+    border: dotted #c44900 2px ;
+    display: grid;
+    place-items: center;
+}
+
+.photos__caption {
+    font-size: 1.5rem;
+    padding-top : 3rem;
+    color: #c44900;
+    text-align: center;
+}
+
+.photos__imgh {
+    height: 20rem;
+    width :30rem;
+    place-items: center;
+}
+
+.photos__imgv {
+    height: 30rem;
+    width : 19rem;
+    margin-left: 5rem;
+
+}
+
+.contenu-prog__programmes {
+    display: block;
+}
+
+.programmes__java {
+    border: dotted #c44900 2px ;
+    border-radius: 20px;
+    display: grid;
+    place-items: center; 
+}
+
+.java__titre {
+    font-size: 1.5rem;
+    padding : 2rem;
+    color: #c44900;
+    text-align: center;
+}
+
+.java__texte {
+    font-size: 1.25rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.java__img {
+    border-radius: 20px;
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+}
+
+.java__bouton {
+    background-color: #183a37;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.programmes__python {
+    margin : 1rem;
+    border: dotted #c44900 2px ;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.python__titre {
+    font-size: 1.5rem;
+    padding : 2rem;
+    color: #c44900;
+    text-align: center;
+}
+
+.python__texte {
+    font-size: 1.25rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.python__img {
+    border-radius: 20px;
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+}
+
+.python__bouton{
+    background-color: #183a37;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+.contenu-autres__section {
+    display: block;
+}
+
+.crochet__caption {
+    font-size: 1.5rem;
+    padding : 2rem;
+    color: #c44900;
+}
+.crochet__tableau {
+    margin : 1rem;
+    border: dotted #c44900 2px ;
+}
+
+.crochet__img {
+    margin-top: 4rem;
+    width: 80px;
+    height: 80px;
+}
+
+.blender__caption {
+    font-size: 1.5rem;
+    color: #c44900;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.blender__tableau {
+    margin : 2rem;
+    border: dotted #c44900 2px ;
+    display: grid;
+    place-items: center;
+}
+
+.blender__img {
+    border-radius: 20px;
+    margin : 1rem;
+}
+
+.argile__caption {
+    font-size: 1.5rem;
+    color: #c44900;
+    text-align: center;
+}
+
+.argile__tableau {
+    margin : 2rem;
+    border: dotted #c44900 2px ;
+    display: grid;
+    place-items: center;
+}
+
+.argile__tableau, .haut, .bas {
+    display: grid;
+    place-items: center;
+}
+
+.bouclier__texte {
+    font-size: 1.5rem;
+    padding : 2rem;
+    color: #c44900;
+    text-align: center;
+}
+
+
+.section__bouclier {
+    margin : 2rem;
+}
+
+.bouclier__img {
+    padding: 1rem;
+    height: 40rem;
+    width : 30rem;
+}
+
+footer {
+    color: #183a37;
+    text-align: center;
+    margin: 1rem;
+}

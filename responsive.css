@@ -1,0 +1,77 @@
+@media screen and (width>=40rem){
+
+header {
+    font-size: 5rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.contenu-principal__section {
+    display: flex;
+    padding: 2rem;   
+}
+
+.section__img {
+    padding : 2rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.contenu-prog__programmes {
+    display: flex;
+}
+
+.programmes__java {
+    margin: 2rem;
+}
+
+.crochet__tableau {
+    margin : 2rem;
+}
+
+.crochet__img {
+    width: 100px;
+    height: 100px;
+}
+
+.contenu-autres__section {
+    display: flex;
+}
+
+.blender__tableau {
+    display: flex;
+}
+
+.argile__tableau {
+    display: flex;
+    gap: 10px;
+}
+
+.argile__gauche {
+    flex: 1;
+    margin-left : 2rem ; 
+    margin-top: 2rem;
+}
+
+.argile__droite {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.haut, .bas {
+    flex: 1;
+    height: 10rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+.photos__imgv {
+    margin-left: 0rem ;
+}
+    
+}
