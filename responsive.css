@@ -1,6 +1,14 @@
 @media screen and (width>=40rem){
 
+.contenu-principal {
+    display: grid;
+    place-items: center;
+}
 
+.contenu-prog {
+    display: grid;
+    place-items: center;
+}
 
 header {
     font-size: 5rem;
@@ -20,6 +28,7 @@ nav a {
     padding : 2rem;
     height: 30rem;
     width: 30rem;
+    max-width :30rem;
 }
 
 .contenu-prog__programmes {
